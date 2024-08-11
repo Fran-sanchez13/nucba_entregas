@@ -1,0 +1,91 @@
+
+
+/* ===VARIABLES=== */
+:root{
+
+    --background: #ECF39E;
+    --primary: #132A13;
+    --secondary: #31572C;
+    --bg-nv: #90A955;
+    --btn-verde: #4F772D;
+
+    /*===TEXT-COLORS===*/
+    --text-white: #f3f4f6;
+    --text-black: #131415;
+    --text-gray: #adb9c7;
+
+    /*==DECORATIONS==*/
+    --color-ds: #FFC9B9;
+    --color-ds1: #FEFEE3;
+    --color-ds2: #D68C45;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+}
+
+body{
+    background-color: var(--background);
+}
+
+
+header{
+    background: var(--bg-nv);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+.navbar, 
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    gap: 100px;
+}
+
+.navbar-list{
+    gap: 10px;
+    padding-left: 50px;
+}
+
+.navbar-list a{
+    color: var(--text-white);
+}
+
+/*===PSEUDO CLASES Y FIRST CHILD (PRIMER HIJO)
+.navbar-list li:first-child > a{
+    font-weight: 900;
+    color: var(--text-white);
+    
+}===*/
+
+.navbar-list .active{
+    font-weight: 700;
+    color: var(--text-black);
+}
+
+.logo{
+    height: 50%;
+}
+
+.crto-icon{
+    height: 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
