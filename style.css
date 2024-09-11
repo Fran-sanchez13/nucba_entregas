@@ -238,3 +238,99 @@ main{
     border: 3px solid var(--color-ds1) ;
 }
 
+
+/*caja de contacto*/
+
+ #container-contact-us{
+    max-width: 1200px;
+    margin: 100px;
+    padding: 70px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+/*
+.info-contact{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.contact-img{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: end;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+.contact-img img{
+    width: 400px;
+    height: 400px;
+    border-radius: 1rem;
+    margin: 0 20px 50px 450px; 
+} */
+
+
+/* GRID AREAS */
+
+.grid-area{
+    display: grid;
+    grid-template-areas: 
+        "imagen whatsapp whatsapp"
+        "imagen instagram instagram"
+        "imagen tiktok tiktok"
+        "imagen ubicacion ubicacion"
+        ;
+        gap: 40px;
+}
+
+.imagen{
+    grid-area: imagen;
+    background-color: crimson;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 400px;
+    height: 390px;
+    margin: 0 200px 0 10px;
+    
+}
+
+.imagen img{
+    width: 100%;
+    height: 390px;
+}
+
+.whatsapp{
+    grid-area: whatsapp;
+    background-color: green;
+    border-radius: 8px;
+    width: 500px;
+    height: 50px;
+    justify-content: end;
+}
+
+.instagram{
+    grid-area: instagram;
+    background-color: saddlebrown;
+    border-radius: 8px;
+    height: 50px;
+}
+.tiktok{
+    grid-area: tiktok;
+    background-color: purple;
+    border-radius: 8px; 
+    width: 500px;
+    height: 50px;  
+}
+
+
+.ubicacion{
+    grid-area: ubicacion;
+    background-color: teal;
+    border-radius: 8px;
+    height: 50px;
+}
