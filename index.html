@@ -20,12 +20,15 @@
         
         <!-- NAVBAR -->
         <nav class="navbar">
+            <label for="menu-toggle"><img src="assets/img/menu.svg" alt="menu">
+            </label>
+            <input type="checkbox" id="menu-toggle">
             <ul class="navbar-list">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Experiencias</a></li>
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#info-nosotros">Experiencias</a></li>
                 <li><a href="#">Vuelos</a></li>
                 <li><a href="#">Alojamientos</a></li>
-                <li><a href="#">Contactanos</a></li>
+                <li><a href="#container-contact-us">Contactanos</a></li>
             </ul>
 
             <!-- CARRITO -->
@@ -42,12 +45,18 @@
             <div class="hero-info">
                 <h1>VIVA VIAJES</h1>
                 <p>Bienvenidos a <span>VIVA VIAJES</span>, tu puerta de entrada a aventuras inolvidables. Explora destinos fascinantes y crea recuerdos únicos con nuestros itinerarios personalizados. ¡Deja que cada viaje sea una experiencia excepcional!</p>
-                <a href="#info-nosotros">Nosotros</a>
+                <a href="#info">Nosotros</a>
             </div>
 
             <!-- CAJA DE IMG CON TEXTO -->
             <div class="hero-img-info">
                 <img src="assets/img/reunion.png" alt="Sala de reunion de viva viajes">
+            </div>
+        </section>
+        <!--caja de info-->
+        <section id="info">
+            <div class="nosotros">
+                <p>En <span>Viva Viajes</span>, transformamos cada destino en una experiencia inolvidable. Nuestro equipo apasionado se dedica a ofrecer aventuras personalizadas, sumergiéndote en la autenticidad de cada lugar con un enfoque en la excelencia y el detalle. Con valores de compromiso, innovación y calidez, hacemos que cada viaje sea una historia única. El trabajo que nos inspira es crear momentos especiales que quedan grabados en la memoria y en el corazón de nuestros viajeros.<span> ¡Ven a descubrir el mundo con Viva Viajes y vive la aventura de tu vida!</span></p>
             </div>
         </section>
 
@@ -80,32 +89,36 @@
         
         </section>
         
-        <!--caja de info-->
-        <section id="info">
-            <div class="nosotros">
-                <p>En <span>Viva Viajes</span>, transformamos cada destino en una experiencia inolvidable. Nuestro equipo apasionado se dedica a ofrecer aventuras personalizadas, sumergiéndote en la autenticidad de cada lugar con un enfoque en la excelencia y el detalle. Con valores de compromiso, innovación y calidez, hacemos que cada viaje sea una historia única. El trabajo que nos inspira es crear momentos especiales que quedan grabados en la memoria y en el corazón de nuestros viajeros.<span> ¡Ven a descubrir el mundo con Viva Viajes y vive la aventura de tu vida!</span></p>
-            </div>
-        </section>
 
-        <section id="container-contact-us">
-            <!-- <div class="info-contact">
-                <h1>CONTACTANOS</h1>
-                <p>whatsapp</p>
+        <section id="contact-us">
+            <h2>Contactanos!</h2>
+            <div class="container-contact">
+                <div class="img-contact">
+                <img src="assets/img/vivaViajes.jpeg" alt="Edificio Viva Viajes">
             </div>
-            <div class="contact-img">
-                <img src="assets/img/edificio-vivaviajes.webp" alt="Edificio Viva Viajes">
-            </div> -->
-            <div class="grid-area">
-                <div class="imagen"> <img src="assets/img/edificio-vivaviajes.webp" alt="Edificio Viva Viajes"></div>
-                <div class="whatsapp">whatsapp</div>
-                <div class="instagram">instagram</div>
-                <div class="tiktok">tiktok</div>
-                <div class="ubicacion">ubicacion</div>
-
+            <div class="contact-info">
+                <p><a href="#"><img src="assets/img/whatsapp-icon.svg" alt="Whatsapp" class="icono-img"></a>Whatsapp (3418856585)</p>
+                <p><a href="#"><img src="assets/img/location-icon.svg" alt="Ubicacion" class="icono-img"></a>Av.Marquez Sobremonte 9850</p>
+            </div>
+            <div class="contact-info">
+                <p><a href="#"><img src="assets/img/instagram-icon.svg" alt="Instagram" class="icono-img"></a>@VivaViajesOK</p>
+                <p><a href="#"><img src="assets/img/tiktok-icon.svg" alt="TikTok" class="icono-img"></a>@VivaViajes.ar</p>
+            </div>
             </div>
         </section>
 
     </main>
-    
+    <footer id="footer">
+        <div class="footer-container">
+            <ul class="footer-list">
+                <li><a href="#"><img src="assets/img/x-twitter.svg" alt="X-Twitter"></a></li>
+                <li><a href="#"><img src="assets/img/whatsapp-icon.svg" alt="X-Twitter"></a></li>
+                <li><a href="#"><img src="assets/img/instagram-icon.svg" alt="X-Twitter"></a></li>
+                <li><a href="#"><img src="assets/img/tiktok-icon.svg" alt="X-Twitter"></a></li>
+
+            </ul>
+        </div>
+
+    </footer>
 </body>
 </html>
